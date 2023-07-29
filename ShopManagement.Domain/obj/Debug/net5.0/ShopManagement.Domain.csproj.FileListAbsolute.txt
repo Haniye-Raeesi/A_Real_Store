@@ -1,0 +1,17 @@
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\ref\ShopManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.pdb
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\0_FrameWork.dll
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\0_FrameWork.pdb
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
