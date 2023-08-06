@@ -2,11 +2,13 @@ D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\Sho
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ref\ShopManagement.Configuration.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.pdb
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\01_StoreQuery.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\0_FrameWork.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.InfraStructure.EfCore.dll
+D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\01_StoreQuery.pdb
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.pdb
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.InfraStructure.EfCore.pdb
@@ -21,5 +23,3 @@ D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\obj\Debug\net5.0\Sho
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
-D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\01_StoreQuery.dll
-D:\My_VS_Projects\A_Real_Store\ShopManagement.Configuration\bin\Debug\net5.0\01_StoreQuery.pdb

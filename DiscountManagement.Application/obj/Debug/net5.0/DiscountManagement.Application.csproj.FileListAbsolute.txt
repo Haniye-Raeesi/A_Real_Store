@@ -5,9 +5,11 @@ D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\D
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\0_FrameWork.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\0_FrameWork.pdb
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csproj.AssemblyReference.cache
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
@@ -17,5 +19,3 @@ D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\obj\Debug\net5.0\D
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.pdb
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

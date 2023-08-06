@@ -1,15 +1,11 @@
 using DiscountManagement.InfraStructure.Configuration;
+using InventoryManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ServiceHost
 {
@@ -30,6 +26,7 @@ namespace ServiceHost
 
             ShopManagementBootstrapper.Configure(services, ConnectionString);
             DiscountManagementBootstrapper.Configure(services, ConnectionString);
+            InventoryManagementBootstrapper.Configure(services,ConnectionString);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

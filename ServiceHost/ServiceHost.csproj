@@ -8,6 +8,7 @@
     <ProjectReference Include="..\01_StoreQuery\01_StoreQuery.csproj" />
     <ProjectReference Include="..\DiscountManagement.Application.Contracts\DiscountManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\DiscountManagement.InfraStructure.Configuration\DiscountManagement.InfraStructure.Configuration.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
 

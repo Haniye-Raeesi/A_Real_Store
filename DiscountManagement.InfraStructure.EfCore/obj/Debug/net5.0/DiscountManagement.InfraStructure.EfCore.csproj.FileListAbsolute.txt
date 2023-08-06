@@ -7,9 +7,15 @@ D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debu
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\0_FrameWork.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.InfraStructure.EfCore.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.InfraStructure.EfCore.pdb
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\0_FrameWork.pdb
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\obj\Debug\net5.0\DiscountManagement.InfraStructure.EfCore.csproj.AssemblyReference.cache
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\obj\Debug\net5.0\DiscountManagement.InfraStructure.EfCore.GeneratedMSBuildEditorConfig.editorconfig
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\obj\Debug\net5.0\DiscountManagement.InfraStructure.EfCore.AssemblyInfoInputs.cache
@@ -20,9 +26,3 @@ D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\obj\Debu
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\obj\Debug\net5.0\ref\DiscountManagement.InfraStructure.EfCore.dll
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\obj\Debug\net5.0\DiscountManagement.InfraStructure.EfCore.pdb
 D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\obj\Debug\net5.0\DiscountManagement.InfraStructure.EfCore.genruntimeconfig.cache
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Domain.dll
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.InfraStructure.EfCore.dll
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.InfraStructure.EfCore.pdb
-D:\My_VS_Projects\A_Real_Store\DiscountManagement.InfraStructure.EfCore\bin\Debug\net5.0\ShopManagement.Domain.pdb

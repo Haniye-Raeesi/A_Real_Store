@@ -1,0 +1,17 @@
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\InventoryManagement.Application.Contracts.deps.json
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\ref\InventoryManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\0_FrameWork.dll
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\0_FrameWork.pdb
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.AssemblyInfo.cs
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.csproj.CopyComplete
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\ref\InventoryManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
