@@ -9,3 +9,4 @@ D:\My_VS_Projects\A_Real_Store\0_FrameWork\obj\Debug\net5.0\0_FrameWork.csproj.C
 D:\My_VS_Projects\A_Real_Store\0_FrameWork\obj\Debug\net5.0\0_FrameWork.dll
 D:\My_VS_Projects\A_Real_Store\0_FrameWork\obj\Debug\net5.0\ref\0_FrameWork.dll
 D:\My_VS_Projects\A_Real_Store\0_FrameWork\obj\Debug\net5.0\0_FrameWork.pdb
+D:\My_VS_Projects\A_Real_Store\0_FrameWork\obj\Debug\net5.0\0_FrameWork.csproj.AssemblyReference.cache

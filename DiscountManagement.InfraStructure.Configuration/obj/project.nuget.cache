@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "StK20ykyvtGA/EpKIo+TIva9XShyNlJ5oB6YRy0IohKNXr2n+gBgX/UHkbvOyOP1eQ6G1zYI4lUz6chNqwfAZg==",
+  "dgSpecHash": "WrRtGgp8FHM+8alDhKKlMwLK0mQSA3n6u+1+iO7MlWtLfOMBJx8NR+8du4MvsFe9yY12P2cGE4dDwPD3NKIJzQ==",
   "success": true,
   "projectFilePath": "D:\\My_VS_Projects\\A_Real_Store\\DiscountManagement.InfraStructure.Configuration\\DiscountManagement.InfraStructure.Configuration.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -20,7 +21,7 @@
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.identity.client\\4.14.0\\microsoft.identity.client.4.14.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.6.0\\microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\microsoft.identitymodel.logging\\5.6.0\\microsoft.identitymodel.logging.5.6.0.nupkg.sha512",
@@ -55,6 +56,7 @@
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\TOP-SYSTEM\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",

@@ -208,3 +208,12 @@ D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\ServiceHost.Views.pd
 D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs
+D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategoryWithProducts\Default.cshtml.g.cs
+D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArrivals\Default.cshtml.g.cs
+D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductCategory.cshtml.g.cs
+D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Menu\Default.cshtml.g.cs
+D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\Razor\Pages\Search.cshtml.g.cs
+D:\My_VS_Projects\A_Real_Store\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\My_VS_Projects\A_Real_Store\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\My_VS_Projects\A_Real_Store\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\My_VS_Projects\A_Real_Store\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs

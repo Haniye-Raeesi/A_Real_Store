@@ -1,15 +1,12 @@
 ﻿using _0_FrameWork.Application;
-using System;
+using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Application.Contracts.Slide
 {
     public class CreateSlide
     {
-        public string Picture { get; set; }
+        public IFormFile Picture { get; set; }
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureAlt { get; set; }
         [Required(ErrorMessage = ValidationMessages.IsRequired)]

@@ -29,8 +29,8 @@ namespace DiscountManagement.InfraStructure.EfCore.Migrations
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<double>("DiscountRate")
-                        .HasColumnType("float");
+                    b.Property<int>("DiscountRate")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");

@@ -1,5 +1,6 @@
 ﻿using _0_FrameWork.Application;
 using ShopManagement.Application.Contracts.ProductPicture;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using System.Collections.Generic;
 
@@ -8,20 +9,30 @@ namespace ShopManagement.Application
     public class ProductPictureApplication : IProductPictureApplication
     {
         private readonly IProductPictureRepository _productPictureRepository;
+        private readonly IFileUploader _fileUploader;
+        private readonly IProductRepository _productRepository;
 
-        public ProductPictureApplication(IProductPictureRepository productPictureRepository)
+        public ProductPictureApplication(IProductPictureRepository productPictureRepository
+            ,IFileUploader fileUploader
+            ,IProductRepository productRepository)
         {
             _productPictureRepository = productPictureRepository;
+            _fileUploader = fileUploader;
+            _productRepository = productRepository;
         }
 
         public OperationResult Create(CreateProductPicture command)
         {
             var Operation = new OperationResult();
-            if (_productPictureRepository.Exists(x=>x.ProductId==command.ProductId && x.Picture==command.Picture))
-            {
-                return Operation.Failed(ApplicationMessages.Duplicated);
-            }
-            var ProductPicture = new ProductPicture(command.ProductId,command.Picture,command.PictureAlt,command.PictureTitle);
+            //if (_productPictureRepository.Exists(x=>x.ProductId==command.ProductId && x.Picture==command.Picture))
+            //{
+            //    return Operation.Failed(ApplicationMessages.Duplicated);
+            //}
+            var product = _productRepository.GetProductWithCategory(command.ProductId);
+            var PicturePath = $"{product.Category.Slug}//{product.Slug}";
+            var fileName = _fileUploader.Upload(command.Picture, PicturePath);
+
+            var ProductPicture = new ProductPicture(command.ProductId,fileName,command.PictureAlt,command.PictureTitle);
             _productPictureRepository.Create(ProductPicture);
             _productPictureRepository.Save();
             return Operation.Successful();
@@ -36,15 +47,13 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.RecordNotFound);
             }
 
-            if (_productPictureRepository.Exists(x => x.ProductId == command.ProductId 
-            && x.Picture == command.Picture && x.Id != command.Id))
-            {
-                return operation.Failed(ApplicationMessages.Duplicated);
-            }
+            var product = _productRepository.GetProductWithCategory(command.ProductId);
+            var PicturePath = $"{product.Category.Slug}//{product.Slug}";
+            var fileName = _fileUploader.Upload(command.Picture, PicturePath);
 
-           
 
-            ProductPicture.Edit(command.ProductId,command.Picture,command.PictureAlt,command.PictureTitle);
+
+            ProductPicture.Edit(command.ProductId,fileName,command.PictureAlt,command.PictureTitle);
             _productPictureRepository.Save();
             return operation.Successful();
             

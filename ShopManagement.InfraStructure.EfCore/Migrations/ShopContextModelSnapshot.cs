@@ -74,9 +74,6 @@ namespace ShopManagement.InfraStructure.EfCore.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<double>("UnitPrice")
-                        .HasColumnType("float");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");

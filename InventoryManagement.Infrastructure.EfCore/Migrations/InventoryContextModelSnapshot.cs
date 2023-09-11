@@ -43,57 +43,52 @@ namespace InventoryManagement.Infrastructure.EfCore.Migrations
                     b.ToTable("Inventory");
                 });
 
-            modelBuilder.Entity("InventoryManagement.Domain.InventoryAgg.InventoryOperation", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<long>("Count")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("CurrentCount")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<long>("InventoryId")
-                        .HasColumnType("bigint");
-
-                    b.Property<bool>("Operation")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime>("OperationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<long>("OperatorId")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("OrderId")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("InventoryId");
-
-                    b.ToTable("InventoryOperation");
-                });
-
-            modelBuilder.Entity("InventoryManagement.Domain.InventoryAgg.InventoryOperation", b =>
-                {
-                    b.HasOne("InventoryManagement.Domain.InventoryAgg.Inventory", "Inventory")
-                        .WithMany("Operations")
-                        .HasForeignKey("InventoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Inventory");
-                });
-
             modelBuilder.Entity("InventoryManagement.Domain.InventoryAgg.Inventory", b =>
                 {
+                    b.OwnsMany("InventoryManagement.Domain.InventoryAgg.InventoryOperation", "Operations", b1 =>
+                        {
+                            b1.Property<long>("Id")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("bigint")
+                                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                            b1.Property<long>("Count")
+                                .HasColumnType("bigint");
+
+                            b1.Property<long>("CurrentCount")
+                                .HasColumnType("bigint");
+
+                            b1.Property<string>("Description")
+                                .HasMaxLength(1000)
+                                .HasColumnType("nvarchar(1000)");
+
+                            b1.Property<long>("InventoryId")
+                                .HasColumnType("bigint");
+
+                            b1.Property<bool>("Operation")
+                                .HasColumnType("bit");
+
+                            b1.Property<DateTime>("OperationDate")
+                                .HasColumnType("datetime2");
+
+                            b1.Property<long>("OperatorId")
+                                .HasColumnType("bigint");
+
+                            b1.Property<long>("OrderId")
+                                .HasColumnType("bigint");
+
+                            b1.HasKey("Id");
+
+                            b1.HasIndex("InventoryId");
+
+                            b1.ToTable("InventoryOperations");
+
+                            b1.WithOwner("Inventory")
+                                .HasForeignKey("InventoryId");
+
+                            b1.Navigation("Inventory");
+                        });
+
                     b.Navigation("Operations");
                 });
 #pragma warning restore 612, 618

@@ -63,7 +63,7 @@ namespace ShopManagement.InfraStructure.EfCore.Repository
                 Category=x.Category.Name,
                 CategoryId=x.CategoryId,
                 CreationDate=x.CreationDate.ToFarsi()
-            });
+            }).AsNoTracking();
             if (!string.IsNullOrWhiteSpace(SearchModel.Name))
                 query = query.Where(x => x.Name.Contains(SearchModel.Name));
             if (!string.IsNullOrWhiteSpace(SearchModel.Code))

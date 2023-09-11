@@ -27,7 +27,7 @@ namespace ShopManagement.InfraStructure.EfCore.Repository
         {
           return  _Context.ProductPictures.Select(x => new EditProductPicture
           {     Id = x.Id,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 ProductId = x.ProductId,
                 PictureAlt=x.PictureAlt,
                 PictureTitle=x.PictureTitle

@@ -13,7 +13,7 @@ namespace InventoryManagement.Infrastructure.Configuration
         public static void Configure(IServiceCollection Services, string connectionString)
         {
             Services.AddTransient<IInventoryRepository, InventoryRepository>();
-            Services.AddTransient<IInventoryApplication, InvetoryApplication>();
+            Services.AddTransient<IInventoryApplication, InventoryApplication>();
 
 
 

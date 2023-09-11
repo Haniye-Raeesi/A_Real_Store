@@ -1,6 +1,4 @@
 ﻿using System;
-
-
 namespace InventoryManagement.Domain.InventoryAgg
 {
     public class InventoryOperation
@@ -32,6 +30,7 @@ namespace InventoryManagement.Domain.InventoryAgg
             OrderId = orderId;
             CurrentCount = currentCount;
             InventoryId = inventoryId;
+            OperationDate=DateTime.Now;
         }
 
     }

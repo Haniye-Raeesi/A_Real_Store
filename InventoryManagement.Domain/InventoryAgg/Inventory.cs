@@ -10,7 +10,7 @@ namespace InventoryManagement.Domain.InventoryAgg
         public long ProductId { get; private set; }
         public double UnitPrice { get; private set; }
         public bool IsInStock { get; private set; }
-        public List<InventoryOperation> Operations { get; private set; }
+        public List<InventoryOperation> Operations { get; set; }
 
         public Inventory()
         {
@@ -49,7 +49,7 @@ namespace InventoryManagement.Domain.InventoryAgg
         public void Decrease(long count, long OperatorId, string Disc, long OrderId)
         {
             var currentCount = CalculateCurrentCount() - count;
-            var Operation = new InventoryOperation(OperatorId, Disc, count, true, OrderId, currentCount, Id);
+            var Operation = new InventoryOperation(OperatorId, Disc, count, false, OrderId, currentCount, Id);
             Operations.Add(Operation);
             IsInStock = currentCount > 0;
         }

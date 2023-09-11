@@ -755,7 +755,7 @@ a:focus {
     float: right;
     display: block;
     content: '\f068';
-    font-family: 'FontAwesome';
+    font-family: IranSans;
     font-size: 14px;
     width: 25px;
     text-align: right;
@@ -1662,7 +1662,7 @@ body.fixed-left .side-menu.left {
 
 .fc-text-arrow,
 .fc-text-arrow {
-    font-family: arial;
+    font-family: IranSans;
     font-size: 16px;
 }
 

@@ -32,6 +32,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\My_VS_Projects\\A_Real_Store\\DiscountManagement.InfraStructure.EfCore\\DiscountManagement.InfraStructure.EfCore.csproj": {
+                "projectPath": "D:\\My_VS_Projects\\A_Real_Store\\DiscountManagement.InfraStructure.EfCore\\DiscountManagement.InfraStructure.EfCore.csproj"
+              },
+              "D:\\My_VS_Projects\\A_Real_Store\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\My_VS_Projects\\A_Real_Store\\InventoryManagement.Infrastructure.EfCore\\InventoryManagement.Infrastructure.EfCore.csproj"
+              },
               "D:\\My_VS_Projects\\A_Real_Store\\ShopManagement.InfraStructure.EfCore\\ShopManagement.InfraStructure.EfCore.csproj": {
                 "projectPath": "D:\\My_VS_Projects\\A_Real_Store\\ShopManagement.InfraStructure.EfCore\\ShopManagement.InfraStructure.EfCore.csproj"
               }
@@ -106,6 +112,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -968,6 +978,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -9,10 +9,12 @@ namespace ShopManagement.Application
     public class ProductApplication:IProductApplication
     {
         private readonly IProductRepository _productRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductApplication(IProductRepository productRepository)
+        public ProductApplication(IProductRepository productRepository,IFileUploader fileUploader)
         {
             _productRepository = productRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProduct command)
@@ -23,8 +25,11 @@ namespace ShopManagement.Application
             else
             {
                 var slug = command.Slug.Slugify();
+                var PicturePath = $"{slug}";
+                var fileName = _fileUploader.Upload(command.Picture, PicturePath);
+
                 var product = new Product(command.Name, command.Code, command.Description,
-                    command.Picture, command.PictureAlt, command.PictureTitle, command.KeyWords
+                    fileName, command.PictureAlt, command.PictureTitle, command.KeyWords
                     , command.MetaDescrioption, slug, command.CategoryId);
                 _productRepository.Create(product);
                 _productRepository.Save();
@@ -47,7 +52,10 @@ namespace ShopManagement.Application
                 return Operation.Failed(ApplicationMessages.RecordNotFound);
             }
             var slug = command.Slug.Slugify();
-            product.Edit(command.Name, command.Code, command.Description, command.Picture,
+            var PicturePath = $"{slug}";
+            var fileName = _fileUploader.Upload(command.Picture, PicturePath);
+
+            product.Edit(command.Name, command.Code, command.Description, fileName,
                 command.PictureAlt, command.PictureTitle, command.KeyWords,
                 command.MetaDescrioption, slug, command.CategoryId);
             _productRepository.Save();
@@ -69,33 +77,7 @@ namespace ShopManagement.Application
         {
            return _productRepository.Search(searchModel);
         }
-        //public OperationResult IsInStock(long id)
-        //{
-        //    var operation = new OperationResult();
-        //    var product = _productRepository.Get(id);
-        //    if (product == null)
-        //    {
-        //        return operation.Failed(ApplicationMessages.RecordNotFound);
-        //    }
-
-        //    product.IsStock();
-        //    _productRepository.Save();
-        //    return operation.Successful();
-        //}
-
-        //public OperationResult NotInStock(long id)
-        //{
-        //    var operation = new OperationResult();
-        //    var product = _productRepository.Get(id);
-        //    if (product == null)
-        //    {
-        //        return operation.Failed(ApplicationMessages.RecordNotFound);
-        //    }
-
-        //    product.NotStock();
-        //    _productRepository.Save();
-        //    return operation.Successful();
-        //}
+        
 
     }
 }

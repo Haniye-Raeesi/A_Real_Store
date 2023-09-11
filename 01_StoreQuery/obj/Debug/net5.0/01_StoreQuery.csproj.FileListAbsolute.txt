@@ -19,3 +19,15 @@ D:\My_VS_Projects\A_Real_Store\01_StoreQuery\obj\Debug\net5.0\01_StoreQuery.cspr
 D:\My_VS_Projects\A_Real_Store\01_StoreQuery\obj\Debug\net5.0\01_StoreQuery.dll
 D:\My_VS_Projects\A_Real_Store\01_StoreQuery\obj\Debug\net5.0\ref\01_StoreQuery.dll
 D:\My_VS_Projects\A_Real_Store\01_StoreQuery\obj\Debug\net5.0\01_StoreQuery.pdb
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\DiscountManagement.InfraStructure.EfCore.dll
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EfCore.dll
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\DiscountManagement.InfraStructure.EfCore.pdb
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EfCore.pdb
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+D:\My_VS_Projects\A_Real_Store\01_StoreQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb

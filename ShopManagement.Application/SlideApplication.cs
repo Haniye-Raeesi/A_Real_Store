@@ -9,20 +9,24 @@ namespace ShopManagement.Application
     public class SlideApplication : ISlideApplication
     {
         private readonly ISlideRepository _slideRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public SlideApplication(ISlideRepository slideRepository)
+        public SlideApplication(ISlideRepository slideRepository,IFileUploader fileUploader)
         {
             _slideRepository = slideRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateSlide command)
         {
             var Operation = new OperationResult();
-            if (_slideRepository.Exists(x=>x.Picture == command.Picture))
-            {
-                return Operation.Failed(ApplicationMessages.Duplicated);
-            }
-            var Slide = new Slide(command.Picture,command.PictureAlt,command.PictureTitle
+            //if (_slideRepository.Exists(x=>x.Picture == command.Picture))
+            //{
+            //    return Operation.Failed(ApplicationMessages.Duplicated);
+            //}
+
+            var fileName = _fileUploader.Upload(command.Picture, "Slides");
+            var Slide = new Slide(fileName,command.PictureAlt,command.PictureTitle
                 ,command.Heading,command.Title,command.Text,command.BtnText,command.Link);
             _slideRepository.Create(Slide);
             _slideRepository.Save();
@@ -37,8 +41,8 @@ namespace ShopManagement.Application
             {
                 return Operation.Failed(ApplicationMessages.RecordNotFound);
             }
-           
-            slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle
+            var fileName = _fileUploader.Upload(command.Picture, "Slides");
+            slide.Edit(fileName, command.PictureAlt, command.PictureTitle
                 , command.Heading, command.Title, command.Text, command.BtnText, command.Link);
             _slideRepository.Save();
             return Operation.Successful();

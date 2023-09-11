@@ -1,14 +1,9 @@
 ﻿using _0_FrameWork.Domain;
 using ShopManagement.Domain.ProductAgg;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Domain.ProductPictureAgg
 {
-   public class ProductPicture: EntityBase
+    public class ProductPicture: EntityBase
     {
         public long ProductId { get; private set; }
         public string Picture { get; private set; }
